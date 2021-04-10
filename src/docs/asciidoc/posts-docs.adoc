@@ -1,0 +1,84 @@
+= API 명세(Spring Rest Docs)
+:author: Kyunghun Kim
+:email: sisipapa239@gmail.com
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectlinks:
+:operation-http-request-title: Request structure
+:operation-http-response-title: Example response
+
+== 등록[POST][/v1/posts]
+
+=== Curl request
+include::{snippets}/posts-controller-test/insert-post/curl-request.adoc[]
+
+=== HTTP request
+include::{snippets}/posts-controller-test/insert-post/http-request.adoc[]
+
+=== HTTP response
+include::{snippets}/posts-controller-test/insert-post/http-response.adoc[]
+
+=== request fields
+include::{snippets}/posts-controller-test/insert-post/request-fields.adoc[]
+
+=== request body
+include::{snippets}/posts-controller-test/insert-post/request-body.adoc[]
+
+
+== 단건조회[GET][/v1/posts/{id}]
+
+=== Curl request
+include::{snippets}/posts-controller-test/get-post/curl-request.adoc[]
+
+=== HTTP request
+include::{snippets}/posts-controller-test/get-post/http-request.adoc[]
+
+=== HTTP response
+include::{snippets}/posts-controller-test/get-post/http-response.adoc[]
+
+=== Path parameters
+include::{snippets}/posts-controller-test/delete-post/path-parameters.adoc[]
+
+=== request fields
+include::{snippets}/posts-controller-test/get-post/request-fields.adoc[]
+
+=== response body
+include::{snippets}/posts-controller-test/get-post/response-body.adoc[]
+
+
+== 수정[PATCH][/v1/posts/{id}]
+
+=== Curl request
+include::{snippets}/posts-controller-test/patch-post/curl-request.adoc[]
+
+=== HTTP request
+include::{snippets}/posts-controller-test/patch-post/http-request.adoc[]
+
+=== HTTP response
+include::{snippets}/posts-controller-test/patch-post/http-response.adoc[]
+
+=== Path parameters
+include::{snippets}/posts-controller-test/delete-post/path-parameters.adoc[]
+
+=== request fields
+include::{snippets}/posts-controller-test/patch-post/request-fields.adoc[]
+
+=== request body
+include::{snippets}/posts-controller-test/patch-post/request-body.adoc[]
+
+
+== 삭제[DELETE][/v1/posts/{id}]
+
+=== Curl request
+include::{snippets}/posts-controller-test/delete-post/curl-request.adoc[]
+
+=== HTTP request
+include::{snippets}/posts-controller-test/delete-post/http-request.adoc[]
+
+=== HTTP response
+include::{snippets}/posts-controller-test/delete-post/http-response.adoc[]
+
+=== Path parameters
+include::{snippets}/posts-controller-test/delete-post/path-parameters.adoc[]
