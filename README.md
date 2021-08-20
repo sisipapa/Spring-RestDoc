@@ -424,7 +424,7 @@ bootWar {
 아래는 생성된 posts-docs.html 파일이다.
 <img src="https://sisipapa.github.io/assets/images/posts/2021-04-09-restdoc-result.PNG" >  
 
-## https://sisipapa.github.io/blog/2021/04/09/Springboot-Document-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC2(Spring-Restdoc)/
+[SISIPAPA 노트연결](https://sisipapa.github.io/blog/2021/04/09/Springboot-Document-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC2(Spring-Restdoc)/)
 
 
 
